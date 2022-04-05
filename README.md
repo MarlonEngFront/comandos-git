@@ -56,3 +56,8 @@ git checkout -b nome-da-branch origin/nome-da-branch
 19 - nvm install 14 - ele instala a versão 14 - se vc passar 14.8  ele instala a 14.8.0
 
 20 - nvm use 8.16 ele passa a usar a versão.
+
+21 - passos para renomer branch origin
+1º deletar o branch remoto - git push origin --delete nome-da-branch
+2º renomear o branch local - git branch -m nome-da-branch
+3º criar um branch remoto - git push origin nome-da-branch
