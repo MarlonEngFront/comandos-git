@@ -1,13 +1,13 @@
 COMANDOS GIT 
 
 1 - passa a rastrear a branch origin/nome-da-branch
-git branch --set-upstream-to=origin/nome-da-branch  
+- git branch --set-upstream-to=origin/nome-da-branch  
 
 2 - cria uma branch baseada na branch atual
-git checkout -b nome-da-branch 
+- git checkout -b nome-da-branch 
 
 3 - adiciona todos os arquivos ao commit
-git add . 
+- git add . 
 
 4 - commita o arquivo atual com a mensagem
 git commit -m "mensagem" 
