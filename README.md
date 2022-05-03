@@ -59,7 +59,16 @@ COMANDOS GIT
 
 20 - nvm use 8.16 ele passa a usar a versão.
 
-21 - passos para renomer branch origin
+21 - renomeia a branch local
+- git branch -m nome-da-branch
+
+22 - deletar uma branch local
+- git branch -d nome-da-branch
+
+23 - passos para renomer branch origin
 - deletar o branch remoto - git push origin --delete nome-da-branch
 - renomear o branch local - git branch -m nome-da-branch
 - criar um branch remoto - git push origin nome-da-branch
+
+24 - deleta a node_modules
+- rm -rf node_modules
