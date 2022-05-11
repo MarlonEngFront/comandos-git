@@ -45,8 +45,8 @@ COMANDOS GIT
 15 - Executar o eslint
 - npm run lint
 
-16 - mergear a branch atual com outra branch
-- git merge nome-da-branch que será mergeada
+16 - mergear a branch atual que esta atrasada com outra branch esta mais atual, colocar o nome da branch que esta mais atual.
+- git merge nome-da-branch 
 
 17 - cria uma nova branch local a partir de uma branch origin
 - git checkout -b nome-da-branch origin/nome-da-branch
