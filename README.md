@@ -72,3 +72,9 @@ COMANDOS GIT
 
 24 - deleta a node_modules
 - rm -rf node_modules
+
+25 - renomear um branch local e remoto 
+ - git branch -m new_name
+ - git push origin :old_name new_name
+
+ 
