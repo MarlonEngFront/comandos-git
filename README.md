@@ -83,4 +83,3 @@ COMANDOS GIT
 27 - limpar o cache do npm
 - npm cache verify
 - npm cache clean --force
-
