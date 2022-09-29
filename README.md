@@ -77,4 +77,10 @@ COMANDOS GIT
  - git branch -m new_name
  - git push origin :old_name new_name
 
- 
+26 - limpar o cache do git
+- git rm -r --cached.
+
+27 - limpar o cache do npm
+- npm cache verify
+- npm cache clean --force
+
