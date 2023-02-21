@@ -83,3 +83,10 @@ COMANDOS GIT
 27 - limpar o cache do npm
 - npm cache verify
 - npm cache clean --force
+
+28 - comando para mergear a as alteraçoes mais recentes
+- git merge --no-ff nome-da-branch
+- git merge --abort
+ 
+- aceitar as alteraçoes da head
+- git merge --no-ff nome-da-branch
