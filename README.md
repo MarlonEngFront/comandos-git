@@ -88,11 +88,16 @@ COMANDOS GIT
 - git merge --no-ff nome-da-branch
 - git merge --abort
  
-- aceitar as alteraçoes da head
-- git merge --no-ff nome-da-branch
+- aceitar as alteraçoes da head'
+- git merge --no-ff nome-da-branch'
 
 29 - exibir um resumo do histórico de commits (alterações) realizadas em um repositório, agrupando-os por autor.
 - git shortlog -s -u 
 
 30 - Para exibir o número de commits de um usuário específico em um repositório Git
 - git shortlog -s -n --author="nome do usuário"
+
+31 - Setar como default uma versão do node especifica usando o NVM
+- nvm alias default 'versão-do-node' 
+- ex: nvm alias default 14.16.0
+
