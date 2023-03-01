@@ -90,3 +90,9 @@ COMANDOS GIT
  
 - aceitar as alteraçoes da head
 - git merge --no-ff nome-da-branch
+
+29 - exibir um resumo do histórico de commits (alterações) realizadas em um repositório, agrupando-os por autor.
+- git shortlog -s -u 
+
+30 - Para exibir o número de commits de um usuário específico em um repositório Git
+- git shortlog -s -n --author="nome do usuário"
